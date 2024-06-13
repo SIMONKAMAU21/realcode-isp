@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
+    backgroundColor:'aliceblue'
   },
   input: {
     width: '80%',

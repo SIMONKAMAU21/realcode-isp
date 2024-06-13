@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
-import { Text, Button, TextInput } from 'react-native-paper';
+import { TextInput, Button } from 'react-native-paper';
 
-const Domain = ({navigation}) => {
+const Domain = ({ navigation }) => {
   const [domain, setDomain] = useState('');
 
   const handleSubmit = () => {
-    navigation.navigate('Login')
+    navigation.navigate('Accounts');
     console.log('Submitted domain:', domain);
   };
 
@@ -32,9 +32,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
-    backgroundColor:'aliceblue',
-    height:'100%',
-    width:'100%'
+    backgroundColor: 'aliceblue',
+    height: '100%',
+    width: '100%',
   },
   input: {
     width: '80%',

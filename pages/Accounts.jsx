@@ -2,16 +2,17 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { Text, Button } from 'react-native-paper';
 
-const Accounts = ({ }) => {
-    const account = {
-        number: 'RH622NJ',
-        expiry: '2024-05-18 22:18:04',
-        type: 'Hotspot',
-        status: 'Expired',
-        package: 'Hourly',
-        balance: 'KES 0',
-        location: 'Mobile',
-      };
+const Accounts = () => {
+  const account = {
+    number: 'RH622NJ',
+    expiry: '2024-05-18 22:18:04',
+    type: 'Hotspot',
+    status: 'Expired',
+    package: 'Hourly',
+    balance: 'KES 0',
+    location: 'Mobile',
+  };
+
   return (
     <View style={styles.container}>
       <View style={styles.accountContainer}>
